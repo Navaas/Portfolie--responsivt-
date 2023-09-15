@@ -1,0 +1,48 @@
+.gridContainerMain {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-auto-rows: minmax(200px, auto);
+  margin: 20px;
+}
+
+.item1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px#adc4ce;
+  border: lightgray solid 1px;
+  padding: 10px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 283px;
+  padding: 10px;
+}
+
+textarea {
+  border-bottom: 5px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .gridContainerMain {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(600px, auto);
+  }
+
+  .item1 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  button {
+    display: block;
+  }
+}

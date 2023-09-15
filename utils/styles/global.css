@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Cinzel";
+  src: local("Cinzel-Bold"),
+    url("/utils//fonts//Cinzel-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: local("Quicksand-Light"),
+    url("/utils/fonts/Quicksand-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JuliusSansOne-Regular";
+  src: local("JuliusSansOne-Regular"),
+    url("/utils//fonts//JuliusSansOne-Regular.ttf") format("truetype");
+}
+body {
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px grey solid;
+}
+.imageLogo {
+  width: 50%;
+}
+.headerNavbar {
+  background-color: white;
+  display: flex;
+  justify-content: end;
+}
+
+nav {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+li {
+  color: black;
+  font-family: Cinzel, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+nav ul li:hover {
+  background-color: #96b6c5;
+  color: black;
+  text-decoration: underline;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  background-color: #adc4ce;
+  padding: 10px;
+}
+
+.footerText {
+  text-align: center;
+  padding: 10px;
+}
+
+.footerIcons {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footerIcon {
+  width: 45px;
+}
+
+.footerItem1 {
+  font-size: 16px;
+  margin: 0;
+}
+.footerItem3 {
+  font-size: 12px;
+  text-align: center;
+}
+
+h1 {
+  font-family: JuliusSansOne-Regular, "Times New Roman", Times, serif;
+}
+
+p {
+  font-family: Quicksand-Light, "Times New Roman", Times, serif;
+}
+
+button {
+  background-color: #96b6c5;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: cinzel, "Times New Roman", Times, serif;
+}
+
+button:hover {
+  background-color: #adc4ce;
+}
+@media only screen and (min-width: 600px) {
+  .imageLogo {
+    width: 15%;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footerText {
+    display: flex;
+    text-align: center;
+    display: block;
+  }
+
+  .footerIcons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .footerIcon {
+    width: 45px;
+    padding: 10px;
+  }
+
+  .footerItem3 {
+    font-size: 14px;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    padding-top: 80px;
+    margin: 0;
+  }
+}
