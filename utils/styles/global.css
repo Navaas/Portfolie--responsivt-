@@ -83,8 +83,12 @@ button:hover {
   background-color: #adc4ce;
 }
 @media only screen and (min-width: 600px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
   .imageLogo {
-    width: 15%;
+    width: 35%;
   }
 
   .footerContainer {

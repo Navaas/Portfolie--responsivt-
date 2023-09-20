@@ -1,11 +1,10 @@
 nav {
-  position: fixed;
   z-index: 10;
   left: 0;
   right: 0;
   top: 0;
-  height: 100px;
   padding: 0.5%;
+  height: 100px;
 }
 
 ul {
@@ -61,6 +60,9 @@ ul a {
 }
 
 @media screen and (max-width: 600px) {
+  nav {
+    position: fixed;
+  }
   ul {
     float: none;
     position: fixed;
