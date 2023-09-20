@@ -1,3 +1,4 @@
+/* Css för navigationbar för desktop och mobile (hamburger menu*/
 nav {
   z-index: 10;
   left: 0;
@@ -37,6 +38,7 @@ ul a {
   color: #000;
 }
 
+/* Här börjar all css för hamburger menu*/
 #navToggle {
   position: absolute;
   top: -100px;

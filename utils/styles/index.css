@@ -1,3 +1,5 @@
+/* Här ligger bara css för allt som ligger i main-taggen*/
+/* css för footer och navigation ligger i egna css-filer importerade i html-filen*/
 .gridContainerMain {
   display: grid;
   grid-template-columns: repeat(1fr);
