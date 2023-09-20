@@ -25,46 +25,10 @@ header {
 .imageLogo {
   width: 50%;
 }
-.headerNavbar {
-  background-color: white;
-  display: flex;
-  justify-content: end;
-}
-
-nav {
-  background-color: white;
-  color: black;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: end;
-  flex-direction: column;
-}
-
-li {
-  color: black;
-  font-family: Cinzel, "Times New Roman", Times, serif;
-}
 
 a {
   text-decoration: none;
 }
-
-nav ul li {
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
-nav ul li:hover {
-  background-color: #96b6c5;
-  color: black;
-  text-decoration: underline;
-}
-
 footer {
   display: grid;
   grid-template-columns: repeat(2 1fr);
@@ -118,15 +82,6 @@ button:hover {
 @media only screen and (min-width: 600px) {
   .imageLogo {
     width: 15%;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-  nav ul li:hover {
-    background-color: white;
-    color: black;
   }
 
   .footerContainer {

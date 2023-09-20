@@ -29,7 +29,7 @@ button {
 @media only screen and (min-width: 600px) {
   .gridContainerMain {
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(600px, auto);
+    grid-auto-rows: minmax(670px, auto);
   }
 
   .item1 {

@@ -6,21 +6,28 @@
     <title>Portfolie</title>
     <link rel="stylesheet" href="utils/styles/global.css" />
     <link rel="stylesheet" href="utils/styles/portfolie.css" />
+    <link rel="stylesheet" href="utils/styles/navbar.css" />
   </head>
   <body>
     <header>
       <section>
-        <a href="index.html"
-          ><img src="utils/images/micand.png" alt="micand" class="imageLogo"
+        <a href="index.html">
+          <img src="utils/images/micand.png" alt="micand" class="imageLogo"
         /></a>
       </section>
       <section class="headerNavbar">
         <nav>
+          <input id="navToggle" type="checkbox" />
           <ul>
-            <a href="index.html"><li>Start</li></a>
-            <a href="portfolie.html"><li>Portfolie</li></a>
-            <a href="contact.html"><li>Kontakt</li></a>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="portfolie.html">Portfolie</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
           </ul>
+          <label for="navToggle" class="iconBurger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </label>
         </nav>
       </section>
     </header>
