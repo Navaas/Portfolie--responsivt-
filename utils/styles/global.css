@@ -18,7 +18,26 @@
 }
 body {
   margin: 0;
+  background-color: white;
+  color: black;
 }
+
+/* Här börjar CSS bör dark mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.buttonDarkMode {
+  background-color: rgb(201, 84, 108);
+}
+
+.buttonDarkMode:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Här slutar CSS för dark mode, under börjar all vanlig CSS */
 
 header {
   background-color: white;
@@ -88,6 +107,11 @@ button:hover {
   header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .buttonDarkMode {
+    max-width: 150px;
+    margin: 0 20px 10px 0;
   }
   .imageLogo {
     width: 35%;

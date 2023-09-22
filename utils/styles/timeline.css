@@ -35,9 +35,11 @@
   animation-delay: 3s;
 }
 
+/* Var tvungen att ändra bakgrunds färg och font färg för att det skulle cynka ihop med dark mode */
 .text-box {
   padding: 20px 30px;
   background-color: whitesmoke;
+  color: #000;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -150,5 +152,10 @@
     border-right: 15px solid #fff;
     border-left: 0;
     left: -15px;
+  }
+  /* Va tvungen att ändra bakgrunds färg och font färg för att det skulle cynka bra ihop med "dark mode" */
+  .text-box {
+    background-color: "fff";
+    color: #000;
   }
 }
